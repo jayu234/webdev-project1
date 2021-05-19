@@ -11,7 +11,6 @@ body {
 
 header {
     overflow: auto;
-    position: sticky;
 }
 
 .identity {
