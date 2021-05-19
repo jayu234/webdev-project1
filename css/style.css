@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    overflow: auto;
+    position: sticky;
+}
+
+.identity {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 5px
+}
+
+.identity img {
+    width: 90px;
+    height: 90px;
+}
+
+.identity h5 {
+    color: white;
+    text-align: right;
+    text-shadow: 2px 2px 0px #7c7c7c;
+    float: right;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 68px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navBar {
+    display: block;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.navBar ul {
+    overflow: auto;
+}
+
+.navBar li {
+    list-style: none;
+    float: left;
+    padding: 18px;
+    padding-top: 12px;
+}
+
+.navBar li a {
+    font-family: 'Poppins', sans-serif;
+    color: #9c9898;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navBar li a:hover {
+    color: white;
+}
+
+.buttons {
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 18px;
+    top: 14px;
+}
+
+.btn {
+    margin: 0px 6px;
+    padding: 4px 10px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+    background-color: #f55353;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn:hover {
+    background-color: #f55353;
+    /* color: black; */
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 350ms;
+}
+
+.container {
+    background-color: #80808094;
+    border: 2px solid #a5a5a5;
+    border-radius: 10px;
+    display: block;
+    width: 33%;
+    height: 400px;
+    margin: 50px auto;
+    padding: 33px;
+}
+
+.container h3 {
+    color: #ff5f5c;
+    text-align: center;
+    text-shadow: 0px 0px 5px black;
+    font-size: 42px;
+    font-family: 'Oswald';
+    margin-bottom: 6px;
+}
+
+.container form {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.form-elements input {
+    width: 81%;
+    padding: 8px;
+    margin: 3px;
+    border: none;
+    border-radius: 4px;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-elements button {
+    display: block;
+    width: 66%;
+    margin: 25px auto;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 26px;
+    border-radius: 6px;
+    background-color: #64ecdf;
+}
+
+.form-elements button:hover{
+    background-color: #80cbc4;
+    cursor: pointer;
+}
