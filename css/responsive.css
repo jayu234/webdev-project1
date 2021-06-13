@@ -14,11 +14,13 @@
     }
 
     .ham-menu{
-        display: block;
-        border: 2px solid red;
-        width: 1.5rem;
-        height: 1.5rem;
-        margin: 0 1em;
+        width: 1.55rem;
+        height: 1.55rem;
+        margin: 1rem;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .container{
@@ -63,5 +65,30 @@
     .ham-menu{
         width: 1.25rem;
         height: 1.25rem;
+    }
+
+    .container{
+        width: 59vw;
+        height: 51vh;
+        margin: 6rem auto;
+        padding: 1rem;
+    }
+
+    .container h3{
+        font-size: 7vw;
+        margin-bottom: 1rem;
+    }
+
+    .form-elements input {
+        font-size: 4vw;
+        width: 46vw;
+        padding: 0.45rem;
+        margin: 0.5rem 0;
+    }
+
+    .form-elements button {
+        font-size: 5vw;
+        margin: 1rem auto;
+        padding: 0 5vw;
     }
 }
